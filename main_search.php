@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . "/db_con.php";
+include $_SERVER['DOCUMENT_ROOT'] . "/db.php";
 
 $keyword = $_GET['search'];
 $search_option = $_GET['search_option'];
@@ -80,30 +80,6 @@ $result = mysqli_query($db, $sql);
   .list_board{
     text-align: center;
   }
-
-/* 버튼 스타일링 */
-#button_area {
-  display: flex;
-  margin-bottom: 10px;
-}
-
-.sort-btn {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-  padding: 5px;
-  background-color: #f1f1f1;
-  border: none;
-  cursor: pointer;
-}
-
-.sort-btn span {
-  margin-right: 5px;
-}
-
-.sort-btn:hover {
-  background-color: #ddd;
-}
 
 /* 테이블 영역과 버튼 영역을 나란히 표시 */
 .list-table {

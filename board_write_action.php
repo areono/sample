@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-include "db.php";
+include $_SERVER['DOCUMENT_ROOT']."/db.php";
 include 'config.php';
 //각 변수에 free_board_write.php에서 title, content, userid 저장
 $title = $_POST['title'];
