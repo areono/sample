@@ -1,7 +1,6 @@
 <?php
-session_start();
 
-include 'db.php';
+include $_SERVER['DOCUMENT_ROOT']."/db.php";
 $id = $_POST['id'];
 $pw = $_POST['passwd'];
 
