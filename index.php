@@ -1,5 +1,5 @@
-<?php 
-    include $_SEVER['DOCUMENT_ROOT'] "/db.php";
+<?php
+include $_SERVER['DOCUMENT_ROOT']."db.php";
 ?>
 
 <!DOCTYPE html>
