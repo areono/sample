@@ -1,6 +1,5 @@
 <?php
-session_start();
-require('db.php');
+require ('db.php');
 
 // Handle registration form submission
 if (isset($_POST['register'])) {
