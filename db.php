@@ -1,6 +1,7 @@
 <?php
 // db.php
 session_start();
+include 'c!nfig.php';
 $servername = "localhost";
 $username = "sunkist";
 $password = "tapesunk!";
