@@ -1,6 +1,5 @@
 <?php 
-    session_start();
-    require ('db.php');
+    include $_SEVER['DOCUMENT_ROOT'] "/db.php";
 ?>
 
 <!DOCTYPE html>
