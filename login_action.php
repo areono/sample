@@ -1,6 +1,7 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT']."/db.php";
+include 'functions.php';
 $id = $_POST['id'];
 $pw = $_POST['passwd'];
 
