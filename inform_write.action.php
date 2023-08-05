@@ -26,7 +26,7 @@ move_uploaded_file($tmpfile, $folder);
 
 
 if($title && $content){
-    $sql = mc("INSERT INTO inform_board(title,content,name,file) VALUES('$title', '$content', '$user', '$filename')"); 
+    $sql = mc("INSERT INTO inform_board(title,content,name,file, data) VALUES('$title', '$content', '$user', '$filename', NOW())"); 
     echo "<script>
     alert('글쓰기 완료되었습니다.');
     location.href='inform.php';</script>";
