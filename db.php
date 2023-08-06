@@ -5,9 +5,9 @@ include 'config.php';
 
 
 $servername = "localhost";
-$username = "sunkist";
-$password = "tapesunk!";
-$dbname = "sunkist";
+$username = "shjeon";
+$password = "shjeon1374!!";
+$dbname = "member_information";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
